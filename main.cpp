@@ -58,7 +58,7 @@ int main()
         cout<<"Ingrese un numero impar: ";
         cin>>n;
         numero = confirmarimpar(n);
-        construirpatron(n);
+        construirpatron(numero);
         cout<<"Desea volver al menu principal? y/n : ";
         cin>>volver;
         while (volver != 'y' && volver != 'n'){
