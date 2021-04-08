@@ -51,7 +51,7 @@ void Menu()
     cout<<"*********************"<<endl;
 }
 void problema_4(){
-    cout<<"Escriba un programa para leer dos numeros enteros con el siguiente significado: El valor del primer numero representa una hora del día en un reloj de 24 horas de modo que 1245 representa las doce y cuarenta y cinco de la tarde. El segundo entero representa un tiempo de duración de la misma manera, por lo que 345 representa 3 horas y 45 minutos. El programa debe sumar esta duracion primer numero y el resultado sera impreso en la misma notacion, en este caso 1630, que es el tiempo de 3 horas y 45 minutos despues de 12:45."<<endl;
+    cout<<"Escriba un programa para leer dos numeros enteros con el siguiente significado: El valor del primer numero representa una hora del dia en un reloj de 24 horas de modo que 1245 representa las doce y cuarenta y cinco de la tarde. El segundo entero representa un tiempo de duración de la misma manera, por lo que 345 representa 3 horas y 45 minutos. El programa debe sumar esta duracion primer numero y el resultado sera impreso en la misma notacion, en este caso 1630, que es el tiempo de 3 horas y 45 minutos despues de 12:45."<<endl;
 }
 void problema_5(){
 cout<<"Escriba un programa que escriba un patron en pantalla. El tamano del patron estara determinado un numero entero impar que ingrese el usuario."<<endl;
@@ -100,8 +100,7 @@ void sumarhora(int hora1, int hora2){
     if (sumaminutos>60){sumaminutos = sumaminutos - 60;
     sumahora += 1;
     }
-    sumahora *= 100;
-    cout<<"La hora es: "<< sumahora+sumaminutos<<endl;
+    cout<<"La hora es: "<< sumahora<<":"<<sumaminutos<<endl;
 }
 
 int confirmarimpar(int n){
